@@ -5,6 +5,7 @@ data
 include
 private
 src
+library
 tools
 .git
 .gitmodules*
