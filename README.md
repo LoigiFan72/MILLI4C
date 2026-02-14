@@ -10,4 +10,4 @@ This is currently targetting the 1.0 US Build of the game but will soon expand t
 
 # How to help
 
-Join then discord! https://discord.gg/dQ4xEerM9m
+Join the discord! https://discord.gg/dQ4xEerM9m
