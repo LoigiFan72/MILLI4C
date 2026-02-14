@@ -1,0 +1,10 @@
+#misc before public
+asm
+build
+data
+include
+private
+src
+tools
+.git
+.gitmodules*
