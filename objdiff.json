@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/encounter/objdiff/main/config.schema.json",
+
+  // Build system configuration
+  "custom_make": "make",
+  "custom_args": [],
+
+  // Whether objdiff should build the base (your recompiled objects)
+  "build_base": true,
+
+  // Whether objdiff should build the target (original objects)
+  // If your original objects are already present, you can set false
+  "build_target": false,
+
+  // Patterns of files to watch for changes
+  "watch_patterns": [
+    "*.c",
+    "*.cpp",
+    "*.h",
+    "*.hpp",
+    "*.s",
+    "*.S"
+  ],
+
+  // Patterns of files / folders to ignore when watching
+  "ignore_patterns": [
+    "build/**/*",
+    "diff/**/*"
+  ],
+
+  // Object units to diff
+  "units": [
+    {
+      "name": "field/main.o",
+      "target_path": "build/asm/field/main.o",
+      "base_path": "build/src/field/main.o",
+      "metadata": {}
+    },
+    {
+      "name": "battle/actor.o",
+      "target_path": "build/asm/battle/actor.o",
+      "base_path": "build/src/battle/actor.o",
+      "metadata": {}
+    },
+    {
+      "name": "menu/ui.o",
+      "target_path": "build/asm/menu/ui.o",
+      "base_path": "build/src/menu/ui.o",
+      "metadata": {}
+    }
+  ]
+}

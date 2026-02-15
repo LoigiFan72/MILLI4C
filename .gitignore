@@ -2,10 +2,17 @@
 asm
 build
 data
-include
 private
 src
 library
 tools
 .git
 .gitmodules*
+
+# Dev
+ori
+ARMCC.cmake
+CMakeLists.txt
+code.bin
+code.elf
+code.axf
