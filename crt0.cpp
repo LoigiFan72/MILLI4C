@@ -5,7 +5,7 @@ extern "C" void _fp_init();
 extern "C" void nninitLocale();
 extern "C" void nninitSystem();
 extern "C" void nninitStartUp();
-extern "C" __weak void __cpp_initialize__aeabi_();
+extern "C" __weak; void __cpp_initialize__aeabi_();
 extern "C" void nninitCallStaticInitializers();
 extern "C" void nninitSetup();
 extern "C" void nnMain();

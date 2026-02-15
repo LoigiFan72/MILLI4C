@@ -1,18 +1,5 @@
-#misc before public
-asm
-build
-data
-private
-src
-library
-tools
-.git
-.gitmodules*
-
 # Dev
-ori
-ARMCC.cmake
-CMakeLists.txt
-code.bin
-code.elf
-code.axf
+build
+private
+Makefile*
+tools
