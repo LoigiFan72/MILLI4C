@@ -1,9 +1,10 @@
-# Dev
-build
-private
-tools
-src
-ori
+build/
+private/
+tools/
+src/
+data/
+src/*
+ori/
 *.json
 *.py
 *.cpp
