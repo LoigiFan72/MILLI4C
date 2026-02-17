@@ -1,0 +1,7 @@
+#pragma once
+
+#include "types.hpp"
+#include "FieldCA.hpp"
+
+class DreamCAInfo : public FieldCAInfo{
+};

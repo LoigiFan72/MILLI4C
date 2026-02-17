@@ -1,0 +1,14 @@
+#pragma once
+
+#include "types.hpp"
+
+#include "DataPc.hpp"
+
+class CalcEquipEff{
+    CalcEquipEff(uint);
+//  virtual ~CalcEquipEff()?
+    void setCoin(uint);
+    void getWeaponPow(DataPc const&,EquipMentSlotType); //could be an enum from here
+    void getDef(DataPc const&);
+    void getDefUp(DataPc const&);
+};
