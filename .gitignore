@@ -1,5 +1,10 @@
 # Dev
 build
 private
-Makefile*
 tools
+src
+ori
+*.json
+*.py
+*.cpp
+Makefile

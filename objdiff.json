@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/encounter/objdiff/main/config.schema.json",
-  "custom_make": "ninja",
+  "custom_make": "make",
   "custom_args": [
     "-d",
     "keeprsp"
@@ -37,8 +37,8 @@
   "units": [
     {
       "name": "MILLI4C/game/Real/RealSystem",
-      "target_path": "build/src/game/RealSystem.o",
-      "base_path": "build/src/game/Real/RealSystem.o",
+      "target_path": "build/game/Real/RealSystem.o",
+      "base_path": "build/game/Real/RealSystem.o",
       "metadata": {}
     }
   ]
