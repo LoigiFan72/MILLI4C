@@ -1,0 +1,11 @@
+Snd/* work
+rsLib/* work
+REDSPARK/* work
+Real is alright ig
+Object dir files need to be added ASAP
+Message/* work
+Menu/* work
+Memory/* MemAlcBase work
+
+
+LITERALLY EVERYTHING
