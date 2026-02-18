@@ -5,12 +5,6 @@ This is a early work in progress, stay tuned for more!
 This is currently targetting the 1.0 US Build of the game but will soon expand to other versions.
 Currently this project is going through a "setup" phase, meaning it may take while for us to get some actual work done.
 
-## Progress
-
-<img src ="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/loigifan72/MILLI4C/main/data/Code.json&style=flat-square"/> <img src ="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/loigifan72/MILLI4C/main/data/Total.json&style=flat-square"/>
-
-<img src ="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/loigifan72/MILLI4C/main/data/OK.json&style=flat-square"/> <img src ="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/loigifan72/MILLI4C/main/data/NonMatching.json&style=flat-square"/>
-
 # The Goal
 
 1:1 Functionality of the code.bin
