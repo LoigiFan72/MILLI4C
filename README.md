@@ -5,10 +5,17 @@ This is a early work in progress, stay tuned for more!
 This is currently targetting the 1.0 US Build of the game but will soon expand to other versions.
 Currently this project is going through a "setup" phase, meaning it may take while for us to get some actual work done.
 
+## Progress
+
+<img src ="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/loigifan72/MILLI4C/main/data/Code.json&style=flat-square"/> <img src ="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/loigifan72/MILLI4C/main/data/Total.json&style=flat-square"/>
+
+<img src ="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/loigifan72/MILLI4C/main/data/OK.json&style=flat-square"/> <img src ="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/loigifan72/MILLI4C/main/data/NonMatching.json&style=flat-square"/>
+
 # The Goal
 
 1:1 Functionality of the code.bin
 As of currently,  only the code.bin is being targeted. No CROs *yet*. Nor will be building of the RomFS be targeted ethier.
+I myself don't care for a PC Port of a 3Ds game. But, once finished I will not care if someone forks it and makes a PC Port for themselves.
 
 # How to help
 

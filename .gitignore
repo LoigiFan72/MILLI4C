@@ -1,10 +1,9 @@
 build/
 private/
-tools/
-src/
+tools/*
 data/
-src/*
 ori/
+src/
 *.json
 *.py
 *.cpp
