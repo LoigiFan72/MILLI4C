@@ -4,7 +4,8 @@
 
 class DfxChildMan{
 public:
-    DfxChildMan(void);
     virtual ~DfxChildMan();
+
+    DfxChildMan(void);
     void run(void);
 };

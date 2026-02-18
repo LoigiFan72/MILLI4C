@@ -4,8 +4,9 @@
 
 class FieldPC : public FieldChrCA{ //FieldPC vtable @ 0x006b8580
 public:
-    FieldPC(void);
     virtual ~FieldPC();
+
+    FieldPC(void);
 };
 
 namespace FieldPC{
@@ -16,18 +17,21 @@ namespace FieldPC{
 
 class FieldPCSub : public FieldChr{ //FieldPCSub vtable @ 0x006b0558
 public:
-    FieldPCSub(void);
     virtual ~FieldPCSub();
+
+    FieldPCSub(void);
 };
 
 class FieldMario : public FieldPC{ //FieldMario vtable @ 0x006b0070
 public:
-    FieldMario(void);
     virtual ~FieldMario();
+
+    FieldMario(void);
 };
 
 class FieldLuigi : public FieldPC{ //FieldLuigi vtable @ 0x006af640
 public:
-    FieldLuigi(void);
     virtual ~FieldLuigi();
+
+    FieldLuigi(void);
 };

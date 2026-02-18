@@ -5,7 +5,8 @@
 class BtlBootInfo{
     int unk_0x4;
 public:
-    BtlBootInfo();
     virtual ~BtlBootInfo(); //<-- maybe wrong
+
+    BtlBootInfo();
     void reset(void);
 };

@@ -4,7 +4,7 @@
 //#include "include/CTR-SDK/include/nn/util/util_Color.h"
 
 class PrimVtxBuf{
-        enum class eStyle
+    enum class eStyle
     {
         STYLE1,
         STYLE2,
@@ -17,9 +17,9 @@ class PrimVtxBuf{
         MODE3,
     };
 public:
-    PrimVtxBuf();
-    
     virtual ~PrimVtxBuf();
+
+    PrimVtxBuf();
     void init(void* buf, u32 size, bool dynamic);
     void begin (eStyle style, eDrawMode mode, uint32_t count, bool indexed);
     void vtxClr(); //color8

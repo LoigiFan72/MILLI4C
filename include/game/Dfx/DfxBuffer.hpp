@@ -4,7 +4,8 @@
 
 class DfxBuffer{
 public:
-    DfxBuffer(void);
     virtual ~DfxBuffer();
+
+    DfxBuffer(void);
     void setBufNum(uint);
 };

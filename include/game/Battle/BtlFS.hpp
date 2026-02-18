@@ -5,8 +5,9 @@
 
 namespace BtlFS{
     class FileUnit : public CtrFileBase{
-    FileUnit();
     virtual ~FileUnit();
+
+    FileUnit();
 };
     class FReadUnit : public CtrFReadBase{
     FReadUnit();

@@ -11,8 +11,9 @@ class FieldSystem : public TaskMainbase{
     CtrNwAlc* currentAlc;
     u8 unk[316];
 public:
-    FieldSystem(FieldBootInfo const*); //vtable @ 0x006B262C 
     virtual ~FieldSystem();
+
+    FieldSystem(FieldBootInfo const*); //vtable @ 0x006B262C 
 };
 
 class FieldSystemCA{

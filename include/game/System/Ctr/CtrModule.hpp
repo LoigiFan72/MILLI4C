@@ -3,7 +3,8 @@
 #include "types.hpp"
 
 class CtrModule{
-public: 
-    CtrModule(void);
+public:
     virtual ~CtrModule();
+
+    CtrModule(void);
 };

@@ -6,8 +6,10 @@
 #include "Prim.hpp"
 
 class UIListWindowPlus{
-    UIListWindowPlus(void);
+public:
     virtual ~UIListWindowPlus();
+
+    UIListWindowPlus(void);
     void update(); //unk
     void init(UIListWindowPlus::InitParam param);
     void draw(CellAnimeState& state, Prim, MessageDrawer&);
@@ -20,11 +22,15 @@ class UIListWindowPlus{
     void tpCtrlEnd(short,short); //void is unk
     void keyCtrl(uint,uint,uint,uint,float);
 };
-namespace UIListWindowPlus{
+namespace UIListWindowPlus{ //uses SOMETHING as a base
 class InitParam{
+    //addwork here
+public:
     InitParam(void);
 }; //end initparam
-class Item{
+class Item : public UIListWindowPlus{ //unk
+    //addwork
+public:
     Item(void);
 }; //end item
 }; //namespace UIListWindowPlus

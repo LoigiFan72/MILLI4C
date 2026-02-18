@@ -4,7 +4,8 @@
 
 class DfxResAlc{
 public:
-    DfxResAlc(void);
     virtual ~DfxResAlc();
+
+    DfxResAlc(void);
     void init(uint,uint,uint,uint,uint);
 };

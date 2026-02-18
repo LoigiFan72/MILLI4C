@@ -6,8 +6,9 @@
 class FieldObjBase{ //FieldObjBase vtable @ 0x006b38ac
     u8 unk[0x9c];
 public:
-    FieldObjBase(void);
     virtual ~FieldObjBase();
+
+    FieldObjBase(void);
 };
 
 class FieldObjCA : public FieldObjBase { //FieldObjCA vtable @ 0x006b0504
@@ -16,12 +17,14 @@ class FieldObjCA : public FieldObjBase { //FieldObjCA vtable @ 0x006b0504
     int unk3;
 //    nn::math::MTX34* mMtx = nullptr;
 public:
-    FieldObjCA(void);
     virtual ~FieldObjCA();
+
+    FieldObjCA(void);
 };
 
 class FieldObjMdl{ //FieldObjMdl vtable @ 0x006b24b8
 public:
-    FieldObjMdl(void);
     virtual ~FieldObjMdl();
+
+    FieldObjMdl(void);
 };

@@ -4,6 +4,7 @@
 
 class DfxLineBB{
 public:
-    DfxLineBB(void);
     virtual ~DfxLineBB();
+
+    DfxLineBB(void);
 };

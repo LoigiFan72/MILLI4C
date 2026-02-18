@@ -4,6 +4,7 @@ tools/*
 data/
 ori/
 src/
+library/NintendoWare
 *.json
 *.py
 *.cpp

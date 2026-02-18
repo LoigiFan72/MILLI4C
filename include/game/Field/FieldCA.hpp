@@ -11,3 +11,6 @@ class FieldCAInfo{ //FieldCAInfo
 
 class FieldCAList{ //FieldCAList
 };
+
+class FieldSystemCA{ //FieldSytstemCA
+};

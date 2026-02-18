@@ -6,8 +6,9 @@ class CtrNwAlc {
     int*     mCurrentAlc;
     uint32_t  Unk_0x8[];
 public:
-    CtrNwAlc(void);
     virtual ~CtrNwAlc();
+
+    CtrNwAlc(void);
     void __deallocating();
     void init();
 };

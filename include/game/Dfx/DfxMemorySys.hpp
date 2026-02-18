@@ -10,8 +10,9 @@
 
 class DfxMemorySys{
 public:
-    DfxMemorySys(void);
     virtual ~DfxMemorySys();
+
+    DfxMemorySys(void);
     void memReadCancelAll(void);
     void init(MemAlcBase *, DfxResAlc *, DfxLinkList<DfxLineBB> *, DfxVRAMTRansfer, CtrFS);
     void term(void);

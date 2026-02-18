@@ -1,10 +1,16 @@
-//AUTHOR: *AlphaDream Corp. Ltd. 2011-2013,* *Nintendo 2011-2013*
-//REWROTE BY: LuigiFan27
-//PROJECT: RedSpark (Headers)
-//
-//
-//FILENAME: CmdCacheMulti.hpp
-//NAMESPACE: Global
-//
-//All contents are based on the US 1.0 Release of the game.
-//*----------------------------RedSpark----------------------------*
+#pragma once
+
+#include "types.hpp"
+
+class CmdCacheMulti{
+    u8 _pad_[128]; //garbage
+    u8 _pad2_[8]; //used alot 0x80-0x88
+public:
+    CmdCacheMulti(void);
+    void init(int,int);
+    void beginSave(void);
+    void useSave(int,uint,bool);
+    void endSave(int);
+    void clear(void);
+    void term(void);
+};

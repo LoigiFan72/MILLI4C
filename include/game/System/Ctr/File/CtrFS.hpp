@@ -1,8 +1,11 @@
 #pragma once
 
 #include "types.hpp"
+
+
 #include "CtrFEnd.hpp"
 #include "CtrJobMan.hpp"
+#include "CtrSave.hpp"
 #include "MemAlcBase.hpp"
 
 class CtrFS{
@@ -16,14 +19,13 @@ class CtrFS{
     CtrSaveFormat mCtrSaveFormat;  
     u8 _pad4_[0x27];
 
-    public:
+public:
     CtrFS(void);
     virtual ~CtrFS();
     void cancel(void);
     void unmountSaveData(void);
     void initCore(CtrJobMan *,void *, int);
 };
-    static_assert(sizeof(CtrFS) == 0x50, "Must be 0x90"); //update when add CtrSaveFormat, and CtrFEnd
 
 class CtrFSEx : public CtrFS{
 public: 

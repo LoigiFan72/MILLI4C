@@ -5,10 +5,11 @@
 
 class TaskMan;
 class Task{
-public:
     TaskMan* mParent = nullptr;
-    
+public:
+    virtual void execute();
     virtual ~Task();
+
     void start();
     void term();
 };

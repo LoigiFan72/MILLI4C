@@ -5,8 +5,9 @@
 #include "DataPc.hpp"
 
 class CalcEquipEff{
-    CalcEquipEff(uint);
 //  virtual ~CalcEquipEff()?
+
+    CalcEquipEff(uint);
     void setCoin(uint);
     void getWeaponPow(DataPc const&,EquipMentSlotType); //could be an enum from here
     void getDef(DataPc const&);

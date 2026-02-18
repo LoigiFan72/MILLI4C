@@ -6,22 +6,26 @@
 class BtlMain{ //BtlMain vtable @ 0x006b8178
     u8 unk[288];
 public:
-    BtlMain(void);
     virtual ~BtlMain();
+
+    BtlMain(void);
 };
 
 namespace BtlMain{
 class VSyncThread : public CtrThread{ //BtlMain::VSyncThread vtable @ 0x006c25f0
-    VSyncThread(void);
     virtual ~VSyncThread();
+
+    VSyncThread(void);
 };
 class BadgeDfxWrap{ //BtlMain::BadgeDfxWrap vtable @ 0x
-    BadgeDfxWrap(void);
     virtual ~BadgeDfxWrap();
+
+    BadgeDfxWrap(void);
 };
 class BtlMapDfxWrap{ //BtlMain::BtlMapDfxWrap vtable @ 0x
-    BtlMapDfxWrap(void);
     virtual ~BtlMapDfxWrap();
+
+    BtlMapDfxWrap(void);
 };
 };//namesapce BtlMain
 

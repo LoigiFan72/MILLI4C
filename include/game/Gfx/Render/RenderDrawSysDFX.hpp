@@ -6,8 +6,8 @@ class RenderDrawSysDFX{
     public: 
     RenderDrawSysDFX();
 class DfxRenderBufRange{
-    public:
     struct Range;
-        u8 field_1; //placeholder
+    u8 field_1; //placeholder
+public:
 };
 };

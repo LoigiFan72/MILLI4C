@@ -3,11 +3,9 @@
 #include "Task.hpp"
 
 class TaskMan{
-public:
     Task* mCurrentTask = nullptr;
-    void entry(Task* task){
-
-    this->mCurrentTask;
-}
+public:
+    void entry(Task* mCurrentTask);
 };
+
 extern TaskMan gTaskMan;

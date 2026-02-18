@@ -1,5 +1,7 @@
 #pragma once
 
+//wowsers also a big one
+
 #include "types.hpp"
 #include "TaskMainBase.hpp"
 
@@ -18,5 +20,5 @@ enum class GAME_MODE : u32{
     STAFFROLL = 11,
 };
 
-//class GameMain
-
+class GameMain{
+};

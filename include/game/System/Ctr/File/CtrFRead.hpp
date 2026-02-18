@@ -7,8 +7,9 @@ class CtrFRead{
 
 class CtrFReadBase{
 public:
-    CtrFReadBase(void);
     virtual ~CtrFReadBase();
+
+    CtrFReadBase(void);
 };
 
 class CtrFReadEx : public CtrFReadBase{

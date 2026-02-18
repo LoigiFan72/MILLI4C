@@ -1,27 +1,17 @@
-//AUTHOR: *AlphaDream Corp. Ltd. 2011-2013,* *Nintendo 2011-2013*
-//REWROTE BY: LuigiFan27
-//PROJECT: RedSpark (Headers)
-//
-//
-//FILENAME: GameDB.hpp
-//NAMESPACE: Global
-//COMMENT: The type (ie void, uint, etc) is unknown so void is a placeholder.
-//All contents are based on the US 1.0 Release of the game.
-//*----------------------------RedSpark----------------------------*
 #pragma once
 
 #include "types.hpp"
 
 class GameDB{
-public: 
-    enum eItemMsgType : u8
+    enum ItemMsgType : u8
     {
         TYPE1,
         TYPE2,
         TYPE3
     };
+public: 
     GameDB();
-    void GetItemMsg(ushort, GameDB::eItemMsgType);
+    void GetItemMsg(ushort, GameDB::ItemMsgType);
     void GetUseItem(ushort);
     void GetItemData(ushort);
     void GetPcAtkData(ushort);

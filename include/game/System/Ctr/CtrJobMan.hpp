@@ -5,8 +5,9 @@
 
 class CtrJobMan{
 public:
-    CtrJobMan(void);
     virtual ~CtrJobMan();
+
+    CtrJobMan(void);
     void init(void *,int,int);
     void term(void);
     void jam(Job *);

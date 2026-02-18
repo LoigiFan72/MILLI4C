@@ -5,8 +5,9 @@
 
 class FieldCamera{
 public: 
-    FieldCamera(void);
     virtual ~FieldCamera();
+
+    FieldCamera(void);
 };
 
 class FieldCameraStereo{ //placehldr

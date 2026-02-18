@@ -10,8 +10,9 @@ class Message;
 
 class Backup{
 public:
-    Backup(void);
     virtual ~Backup();
+
+    Backup(void);
     void isBusyCoping(void);
     void writeInitData(void);
     int copySaveData(short,short);

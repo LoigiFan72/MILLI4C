@@ -6,12 +6,11 @@
 
 class Task;
 class TaskMainBase : public Task{
+    uint nextTask; //0x8
 public:
-    uint nextTask;
 
-    virtual ~TaskMainBase();
-    void restore(uint mCurrentTask){
-
-    this->nextTask = 0;
-};
+    void restore(uint next, Task base){
+    next = nextTask;
+    base = base;
+}
 };
