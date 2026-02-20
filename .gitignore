@@ -1,11 +1,23 @@
-build/
+# Dev
 private/
-tools/*
-data/
+build/
+tools/
 ori/
+.vscode/
+
+# Main so far
+
+data/US_1.0/code.bin
 src/
-library/NintendoWare
+project/
+
+# Misc files; not for public
 *.json
 *.py
 *.cpp
-Makefile
+*.o
+*.s
+*.exe
+*.axf
+*.elf
+CMakeLists.txt

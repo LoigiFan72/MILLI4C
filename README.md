@@ -5,6 +5,10 @@ This is a early work in progress, stay tuned for more!
 This is currently targetting the 1.0 US Build of the game but will soon expand to other versions.
 Currently this project is going through a "setup" phase, meaning it may take while for us to get some actual work done.
 
+# Building the rom
+
+I will not share building the rom yet, as I am using a temporary method to do so.
+
 # The Goal
 
 1:1 Functionality of the code.bin

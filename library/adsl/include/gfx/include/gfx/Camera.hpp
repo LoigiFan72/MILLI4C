@@ -1,7 +1,7 @@
 #pragma once
 
 #include <types.hpp>
-#include <ResCamera.hpp>
+#include <res/ResCamera.hpp>
 #include <AnimGroup.hpp>
 #include <GfxPtr.hpp>
 //#include <nw/ut/internal/RuntimeTypeInfo.hpp>
