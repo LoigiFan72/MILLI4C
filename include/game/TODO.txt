@@ -1,11 +1,2 @@
-Snd/* work
-rsLib/* work
-REDSPARK/* work
-Real is alright ig
-Object dir files need to be added ASAP
-Message/* work
-Menu/* work
-Memory/* MemAlcBase work
-
-
-LITERALLY EVERYTHING
+CMB2 game/UI/
+CMB2 LuigiBox.hpp size is wrong

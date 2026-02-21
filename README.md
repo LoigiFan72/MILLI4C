@@ -13,7 +13,7 @@ I will not share building the rom yet, as I am using a temporary method to do so
 
 # The Goal
 
-1:1 Functionality of the code.bin
+1:1 Matching of the US 1.0 release, and later down the line other releases.
 As of currently,  only the code.bin is being targeted. No CROs *yet*. Nor will be building of the RomFS be targeted ethier.
 I myself don't care for a PC Port of a 3Ds game. But, once finished I will not care if someone forks it and makes a PC Port for themselves.
 
@@ -23,6 +23,7 @@ Currently the "team" is small. And, we need more people. So if you wanna join th
 
 Current Members:
 LuigiFan27
+
 Danius
 
 Join the discord! https://discord.gg/dQ4xEerM9m

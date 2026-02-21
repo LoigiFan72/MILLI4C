@@ -1,15 +1,26 @@
 # Dev
 private/
 build/
-tools/
 ori/
 .vscode/
 
-# Main so far
+# Building
 
 data/US_1.0/code.bin
 src/
 project/
+disassembly/
+
+# Python non public
+
+tools/Bin/
+tools/asm-differ/
+
+# Py cache
+
+tools/__pycache__/
+tools/Bin/__pycache__/
+tools/asm-differ/__pycache__/
 
 # Misc files; not for public
 *.json
