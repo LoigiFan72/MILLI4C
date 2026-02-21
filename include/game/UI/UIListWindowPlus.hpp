@@ -4,8 +4,23 @@
 #include "Message.hpp"
 #include "CellAnimeState"
 #include "Prim.hpp"
+//COME BACK TO
+
+namespace UIListWindowPlus{ //uses SOMETHING as a base
+class InitParam{
+    //addwork here
+public:
+    InitParam(void);
+}; //end initparam
+class Item : public UIListWindowPlus{ //unk
+    //addwork
+public:
+    Item(void);
+}; //end item
+}; //namespace UIListWindowPlus
 
 class UIListWindowPlus{
+
 public:
     virtual ~UIListWindowPlus();
 
@@ -22,15 +37,3 @@ public:
     void tpCtrlEnd(short,short); //void is unk
     void keyCtrl(uint,uint,uint,uint,float);
 };
-namespace UIListWindowPlus{ //uses SOMETHING as a base
-class InitParam{
-    //addwork here
-public:
-    InitParam(void);
-}; //end initparam
-class Item : public UIListWindowPlus{ //unk
-    //addwork
-public:
-    Item(void);
-}; //end item
-}; //namespace UIListWindowPlus

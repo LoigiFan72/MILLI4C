@@ -1,9 +1,11 @@
 #pragma once
 
-#include "types.hpp"
-#include "CtrFRead.hpp"
+#include "game/types.hpp"
+#include "system/Ctr/File/CtrFRead.hpp"
+#include "system/Ctr/File/CtrFileBase.hpp"
 
 class CtrArcFile{
+    CtrFileBase Base;
 public:
     virtual ~CtrArcFile();
 

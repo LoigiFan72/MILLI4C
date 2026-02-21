@@ -1,15 +1,12 @@
 #pragma once
 
-#include "TaskMan.hpp"
 #include "types.hpp"
+#include "system/TaskMan.hpp"
 
-class TaskMan;
 class Task{
-    TaskMan* mParent = nullptr;
 public:
+    Task* mTask;
+
     virtual void execute();
     virtual ~Task();
-
-    void start();
-    void term();
 };

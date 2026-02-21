@@ -3,26 +3,24 @@
 #include <game/types.hpp>
 
 class BtlObjBase{
-    virtual ~BtlObjBase();
-
-    BtlObjBase();
-public:
     u8 pad_1[0x16];
     BtlObjBaseBase* mBase;
     u8 pad_2[100];
+public:
+    virtual ~BtlObjBase();
+
+    BtlObjBase();
 };
 
 class BtlObjMove{
+    u8 unk[944];
+public:
     virtual ~BtlObjMove();
 
     BtlObjMove();
-public:
-
 };
 
 class BtlObjBaseBase{
-    virtual ~BtlObjBaseBase();
-
-public:
     u8 pad[64];
+public:
 };

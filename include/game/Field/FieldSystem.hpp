@@ -2,9 +2,9 @@
 
 #include "types.hpp"
 
-#include "CtrNwAlc.hpp"
-#include "FieldBootInfo.hpp"
-#include "TaskMainBase.hpp"
+#include <system/Ctr/CtrNwAlc.hpp>
+#include <Boot/FieldBootInfo.hpp>
+#include <system/TaskMainBase.hpp>
 
 class FieldSystem : public TaskMainbase{
     u8 unk[0x8];

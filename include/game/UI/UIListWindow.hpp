@@ -3,16 +3,6 @@
 #include "types.hpp"
 #include "Message.hpp"
 
-class UIListWindow : public MessageSimple{ //UIListWindow starts at 0x5d
-public:
-    virtual ~UIListWindow();
-    
-    UIListWindow(void);
-    void getCurNo(uchar CurNo);
-    void draw(); //unk cellanime is huge here tho
-    void drawArrow();
-    void update();
-};
 namespace UIListWindow{
 class Item{
     u8 _pad_[16]; //16 padding bytes, 0x10 starts something new
@@ -26,4 +16,15 @@ public:
 
     InitParam(void);
 };
+};
+
+class UIListWindow{ //MessageSimple starts at 0x5d
+public:
+    virtual ~UIListWindow();
+    
+    UIListWindow(void);
+    void getCurNo(uchar CurNo);
+    void draw(); //unk cellanime is huge here tho
+    void drawArrow();
+    void update();
 };

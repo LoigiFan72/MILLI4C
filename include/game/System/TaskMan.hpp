@@ -1,11 +1,14 @@
 #pragma once
 
-#include "Task.hpp"
+#include "system/Task.hpp"
 
+class Task;
 class TaskMan{
-    Task* mCurrentTask = nullptr;
+    Task* currentTask;
+    Task* mTask;
 public:
-    void entry(Task* mCurrentTask);
+    TaskMan();
+
+    void entry(Task * task);
 };
 
-extern TaskMan gTaskMan;
